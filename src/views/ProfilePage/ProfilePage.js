@@ -7,6 +7,7 @@ import ReactPlayer from "react-player";
 // @material-ui/icons
 import Camera from "@material-ui/icons/Camera";
 import Favorite from "@material-ui/icons/Favorite";
+import Book from "@material-ui/icons/Book";
 import Tooltip from "@material-ui/core/Tooltip";
 // core components
 import Header from "../../components/Header/Header.js";
@@ -124,6 +125,55 @@ export default function ProfilePage(props) {
                     {
                       tabButton: "Vereadores",
                       tabIcon: Favorite,
+                      tabContent: (
+                        <GridContainer justify="center">
+                          <GridItem xs={12} sm={12} md={4}>
+                            <img
+                              alt="..."
+                              src="https://scontent.fbhz8-1.fna.fbcdn.net/v/t1.0-9/120264410_171216901260629_842528421147301460_o.png?_nc_cat=102&_nc_sid=9267fe&_nc_ohc=UL9zuJDj1JEAX9lGfZ0&_nc_ht=scontent.fbhz8-1.fna&oh=2cf2063dfab334e5613880c3211e8a5f&oe=5F983EE0"
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src="https://scontent.fbhz8-1.fna.fbcdn.net/v/t1.0-9/120156685_171216871260632_9190339240660927189_o.png?_nc_cat=103&_nc_sid=9267fe&_nc_ohc=IB5pJs3c7qAAX8TRZm6&_nc_ht=scontent.fbhz8-1.fna&oh=6f347afc3fd3eee6e23113bd741bc351&oe=5F968505"
+                              className={navImageClasses}
+                            />
+                          </GridItem>
+                          <GridItem xs={12} sm={12} md={4}>
+                            <img
+                              alt="..."
+                              src="https://scontent.fbhz8-1.fna.fbcdn.net/v/t1.0-9/120234588_171216814593971_3811642272356349782_o.png?_nc_cat=110&_nc_sid=9267fe&_nc_ohc=ezqZvt31RckAX-y0eNL&_nc_ht=scontent.fbhz8-1.fna&oh=f8b665dd4baadbdb19556a9ee2a9fcd4&oe=5F99BB95"
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src="https://scontent.fbhz8-1.fna.fbcdn.net/v/l/t1.0-9/120302275_171216757927310_3920241847779213722_o.png?_nc_cat=105&_nc_sid=9267fe&_nc_ohc=tpfw4jCNNpQAX9yg2bx&_nc_ht=scontent.fbhz8-1.fna&oh=6f120f89d88d7424478923afda349706&oe=5F97D20A"
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src="https://scontent.fbhz8-1.fna.fbcdn.net/v/t1.0-9/120195531_171216734593979_9189814886958258490_o.png?_nc_cat=101&_nc_sid=9267fe&_nc_ohc=G76bAXrJdTcAX_W4ydx&_nc_ht=scontent.fbhz8-1.fna&oh=2aee6e410d0cc6a743cdafa6bf4ac6fb&oe=5F97326A"
+                              className={navImageClasses}
+                            />
+                          </GridItem>
+                          <GridItem xs={12} sm={12} md={4}>
+                            <img
+                              alt="..."
+                              src="https://scontent.fbhz8-1.fna.fbcdn.net/v/t1.0-9/120217280_171216704593982_6410115135390628676_o.png?_nc_cat=102&_nc_sid=9267fe&_nc_ohc=TgWnpxZbBiwAX939_k1&_nc_ht=scontent.fbhz8-1.fna&oh=ae173e09732ed082e8a90d3a8b97cf82&oe=5F97E608"
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src="https://scontent.fbhz8-1.fna.fbcdn.net/v/t1.0-9/120227807_171216677927318_2123525951656934229_o.png?_nc_cat=102&_nc_sid=9267fe&_nc_ohc=m5BIYjjwoA8AX-0dV1T&_nc_ht=scontent.fbhz8-1.fna&oh=88c2f8469d1a2d685850f8db6d1da4ac&oe=5F965204"
+                              className={navImageClasses}
+                            />
+                          </GridItem>
+                        </GridContainer>
+                      )
+                    },
+                    {
+                      tabButton: "Vereadores Apoiadores",
+                      tabIcon: Book,
                       tabContent: (
                         <GridContainer justify="center">
                           <GridItem xs={12} sm={12} md={4}>
